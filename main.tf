@@ -14,7 +14,7 @@ provider "aws" {
    secret_key = "g5ECzEZ2Yeb477TvqApdanSI/LVInrbHsFmVGlTo"
  }
 
-resource "aws_instance" "Raminfra" {
+resource "aws_instance" "rahulinfra" {
 	ami = "ami-0cff7528ff583bf9a" 
 	instance_type = "t2.micro"
 }
